@@ -1,4 +1,6 @@
+import { CategoryCont } from "@/components/CategoryCont";
 import { Layout } from "@/components/Layout";
+import { MiddleEast } from "@/components/MiddleEast";
 import { TopSection } from "@/components/TopSection";
 import Head from "next/head";
 
@@ -13,6 +15,8 @@ export default function Home() {
       </Head>
       <Layout>
         <TopSection />
+        <MiddleEast />
+        <CategoryCont />
       </Layout>
     </>
   );
